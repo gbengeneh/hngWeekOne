@@ -12,8 +12,8 @@ if (isset($_GET['slack_name']) && isset($_GET['track'])) {
         'current_day' => date("l"), // Get the current day
         'utc_time' => gmdate("Y-m-d\TH:i:s\Z"), // Get the current UTC time
         'track' => $track,
-        'github_file_url' => 'https://github.com/username/repo/blob/main/file_name.ext', // Replace with your actual GitHub URL
-        'github_repo_url' => 'https://github.com/username/repo', // Replace with your actual GitHub repository URL
+        'github_file_url' => 'https://github.com/gbengeneh/hngWeekOne/edit/main/hngWeek1Stask.php', // Replace with your actual GitHub URL
+        'github_repo_url' => 'https://github.com/gbengeneh/hngWeekOne.git', // Replace with your actual GitHub repository URL
         'status_code' => 200
     );
 
